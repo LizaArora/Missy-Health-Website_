@@ -1,5 +1,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="">
 <nav>
     <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
@@ -22,7 +23,7 @@
     <p style="margin-left: 150px;  margin-top: 10px;">Available every day from 6:30 AM to 10 PM</p>
     <button type="button" class="block">Search Test</button>
     <p style="margin-left: 150px; margin-top: 4px">2000+ Tests  &  100+ Health Packages</p>
-     <img src="assets/hero-image.png" alt="hero-image">
+     <img src="" alt="">
   </div>
 
 
@@ -33,6 +34,25 @@
         </div>
         
       </div>
-    </div>
 
-  
+      
+      <owl-carousel-o [options]="customOptions">
+       <ng-template carouselSlide>
+        <img style="height: 400px; width:800px;display:center;padding-left:320px"src="assets/1.png" alt="">
+       </ng-template>  
+     <ng-template carouselSlide>
+        <img style="height: 400px; width:800px;display:center;padding-left:320px"src="assets/2.png" alt="">
+     </ng-template>  
+     <ng-template carouselSlide>
+        <img style="height: 400px;width:800px;display:center;padding-left:320px"src="assets/3.png" alt="">
+     </ng-template>  
+     </owl-carousel-o>
+    
+
+     
+
+
+
+
+
+    </div>
